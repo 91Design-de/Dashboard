@@ -36,6 +36,7 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    font-size:1.2rem;
 }
 
 .room.done, .task.done {
@@ -56,8 +57,5 @@ select {
     padding: 5px;
 }
 
-#roomList {
-    font-size:1rem;
-}
 
 
