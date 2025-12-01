@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #1e1e1e;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #333;
+    padding: 20px;
+    position: relative;
+}
+
+.date {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    font-size: 1.1em;
+    color: #fff;
+}
+
+h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+.room, .task {
+    background: #2e2e2e;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.room.done, .task.done {
+    background: #3e6e3e !important;
+}
+
+.task small {
+    display: block;
+    font-size: 0.8em;
+    color: #ccc;
+}
+
+select {
+    margin-left: 10px;
+    background: #444;
+    color: white;
+    border-radius: 4px;
+    padding: 5px;
+}
